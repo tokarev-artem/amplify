@@ -16,7 +16,7 @@ export const handler = async (event: any) => {
       };
     }
 
-    // Demo responses for now
+    // Demo responses for now - we'll add Bedrock later
     let response = '';
     const lowerMessage = message.toLowerCase();
     
