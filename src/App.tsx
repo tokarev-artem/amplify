@@ -30,7 +30,21 @@ function App() {
             </div>
           </header>
           <main className="App-main">
-            <ChatInterface />
+            <div className="content-container">
+              <div className="info-section">
+                <h2>About TechCorp</h2>
+                <p>We're a leading technology company specializing in cloud solutions and AI-powered applications. Our AI assistant can help you with:</p>
+                <ul>
+                  <li>Information about our services</li>
+                  <li>Business hours and contact details</li>
+                  <li>Technical capabilities and pricing</li>
+                  <li>General questions about our company</li>
+                </ul>
+              </div>
+              <div className="chat-section">
+                <ChatInterface />
+              </div>
+            </div>
           </main>
         </div>
       )}
